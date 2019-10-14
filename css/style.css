@@ -1,0 +1,53 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  margin: 5%;
+}
+
+.container {
+  display: grid;
+  
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+:focus {
+  outline: none;
+  box-shadow: 0 0px 16px #0005;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+nav li {
+  padding: 5px;
+}
+
+.skip a{
+  background: white;
+  left: 0;
+  padding: 6px;
+  position: absolute;
+  top: -40px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+}
+
+.skip a:focus
+{
+  top: 0px;
+}
